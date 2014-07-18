@@ -4,3 +4,5 @@ erlangTest.iml
 out
 .idea
 .rebar
+Mnesia*
+erl_crash.dump
