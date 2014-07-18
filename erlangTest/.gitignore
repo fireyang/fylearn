@@ -1,0 +1,6 @@
+deps
+ebin
+erlangTest.iml
+out
+.idea
+.rebar
