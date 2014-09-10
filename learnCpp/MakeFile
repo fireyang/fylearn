@@ -1,0 +1,12 @@
+bin = create_shm
+
+all: $(bin)
+
+%: %.c
+	gcc -o $@ $<
+
+%: %.cpp
+	g++ -o $@ $<
+
+clean:
+	rm -f $(bin)
